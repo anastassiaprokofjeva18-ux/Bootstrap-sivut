@@ -1,0 +1,110 @@
+body {
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #163d69;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #163d69;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+/* NAVIGOINTI */
+
+.navbar {
+    background-color: #64748b;
+    padding: 10px;
+}
+
+.nav-link {
+    color: black !important;
+    padding: 8px 14px;
+}
+
+.nav-link:hover {
+    background-color: #163d69;
+    color: white !important;
+    border-radius: 50rem;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+/* TAULUKKO */
+
+table {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    background-color: white;
+    border-collapse: collapse;
+    border: 2px solid #163d69;
+}
+
+th,
+td {
+    border: 1px solid #163d69;
+    padding: 6px;
+}
+
+th {
+    background-color: #163d69;
+    color: white;
+    text-align: left;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: #163d69;
+    text-align: center;
+}
+
+/* MOBIILI */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .nav-link {
+        text-align: center;
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    h2 {
+        font-size: 1.5rem !important;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+}
